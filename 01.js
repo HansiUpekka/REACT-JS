@@ -37,3 +37,45 @@ else
 showRecipe
 ? console.log(getRecipeOne("Biscuit"))
 : console.log(getRecipeTwo("Pudding"));
+
+const id = 1;
+const productName = "Product Apple Watch";
+const rating = 5;
+
+const product = {
+    id: id,
+    productName: productName,
+    rating: rating,
+};
+
+console.log(product);
+
+const product1 = {    //new object
+    id,
+    productName,
+    rating,
+};
+
+console.log(product);
+
+const product2 = {
+    description: "Product 2 description",
+    id: 2,
+    productName: "Samsung S50",
+    rating: 4,
+    label: "#123",
+    MND: "2025.10.01",
+};
+
+const getProductTwoDescription = product2.description;
+console.log(getProductTwoDescription);
+
+const { description } = product2;
+console.log(description);
+
+const {label} = product2;
+console.log(label);
+
+const {MND, id: productTwo} = product2;
+console.log(MND, productTwo)
+
