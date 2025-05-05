@@ -79,3 +79,20 @@ console.log(label);
 const {MND, id: productTwo} = product2;
 console.log(MND, productTwo)
 
+
+const array = [1, 2, 3];
+
+let getArrayFirstValue = arrray[0];
+let getArraySecondValue = array[1];
+
+console.log(getArrayFirstValue, getArraySecondValue);
+
+const[arrayFisrtElement, arraySecondElement, arrayThirdElement ) = array;
+console.log(arrayFisrtElement, arraySecondElement, arrayThirdElement);
+consloe.log(arrayFisrtElement, arraySecondElement, arrayThirdElement, arrayForthElement);
+
+const [first, b, c] = array;
+console.log(first, b, c, d);
+
+
+
