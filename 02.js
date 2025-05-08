@@ -44,6 +44,8 @@ console.log(getInfo(1,2,3,4,5));
 
 
 function getInfo (a, b, ...c)
+    //function getInfo(...c, a, b) 
+          // a rest parameter must be LAST in a parameter list.
 {
     console.log(a, b, ...c);
 
